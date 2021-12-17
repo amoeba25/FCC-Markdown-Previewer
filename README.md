@@ -1,4 +1,4 @@
-# FCC-Markdown-Previewer
+# Markdown-Previewer
 
 This is part of FreeCodeCamp's front-end certification. The objective was to make a markdown previewer which updates in real time. This project was made in React using the more updated- functional components
 
