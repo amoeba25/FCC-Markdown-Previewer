@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+
+/* Editor sytlesl */
+
+#editor {
+    width: 480px;
+    background-color: #293C46;
+    height: 490px;
+    margin-left: 50px;
+}
+
+#inner-editor {
+    height: 50px;
+    background-color: #3B4F5A;
+    position: relative;
+    top: -20px;
+    display: flex;
+    align-items: center;
+}
+
+#inner-editor h2{
+    font-size: 2em;
+    margin-left: 15px;
+    font-weight: 500;
+    color: #9FADB5;
+}
+
+#editor textarea{
+    width: 99%;
+    height: 450px; 
+    background-color: #293C46;
+    border: none;
+    resize: none;
+    color: rgb(233, 227, 227);
+    font-size: 1.5em;
+    outline: none;
+
+}
+
+
+/* Previewer styles */
+
+#preview{
+    width: 480px;
+    background-color: #7BB7D7;
+    height: 530px;
+    margin-right: 50px;
+    overflow: scroll;
+    /* overflow-x: hidden; */
+    font-size: 1em;
+}
+
+#inner-preview {
+    height: 50px;
+    background-color: #78ACC7;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+#inner-preview h2{
+    font-size: 2em;
+    font-weight: 500;
+    color: #D1DEE4;
+    margin-left: 15px;
+}
+
+#text-preview{
+    margin-left: 10px;
+    font-size: 1.2em;
+}
